@@ -1,0 +1,18 @@
+<div style="margin: 50px; max-width: 300px">
+    <p-dropdown #dd
+    [options]="options" 
+    [(ngModel)]="selectedOption" 
+    [panelStyle]="{'width': '300px'}"
+    optionLabel="Name"
+    optionValue="Code"
+    [filter]="true"
+    filterBy="Name"
+    [resetFilterOnHide]="true"
+    [virtualScroll]="true"
+    [virtualScrollItemSize]="17"
+    [resetFilterOnHide]="true"
+    scrollHeight="300px"
+    [overlayOptions]="overlayOptions"
+    appendTo="body"
+    placeholder="Select a Facility" />
+</div>
